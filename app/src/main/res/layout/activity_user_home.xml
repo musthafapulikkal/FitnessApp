@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UserHome">
+
+    <Button
+        android:id="@+id/btn_view_product"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/background"
+        android:hint="VIEW PRODUCTS"
+        android:textStyle="bold" />
+    <Button
+
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_user_add_product"
+        android:layout_marginTop="120dp"
+        android:hint="ADD PRODUCTS"
+        />
+    <!--<Button-->
+        <!--android:textStyle="bold"-->
+        <!--android:background="@drawable/background"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_view_video"-->
+        <!--android:layout_marginTop="180dp"-->
+        <!--android:hint="VIEW VIDEOS"/>-->
+    <Button
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_view_fitnss"
+        android:hint="VIEW FITNESS CENTRES"
+        android:layout_marginTop="180dp"
+        />
+    <Button
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:id="@+id/btn_view_cart"
+        android:hint="VIEW CART ITEMS"
+        />
+    <Button
+        android:textStyle="bold"
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:id="@+id/btn_view_trainers"
+        android:hint="VIEW TRAINERS"
+        />
+
+</RelativeLayout>

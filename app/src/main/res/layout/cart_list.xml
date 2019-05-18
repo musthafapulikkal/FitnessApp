@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical"
+    android:background="?android:attr/selectableItemBackground">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageviewcart"
+        />
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:id="@+id/txt_cart_name"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/txt_cart_price"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_cart_name" />
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:layout_toEndOf="@+id/txt_cart_name"
+        android:layout_toRightOf="@+id/txt_cart_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/txt_cart_price"
+        android:layout_toRightOf="@id/txt_cart_price"
+        android:layout_below="@+id/textview"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/txt_qty_id"/>
+
+    <ImageButton
+        android:id="@+id/deletecart_id"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:background="@color/white"
+        android:src="@drawable/adelete" />
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentDetails">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/edt_payment_phone_id"
+        android:background="@drawable/border"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="phone"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:id="@+id/edt_apayment_ddress_id"
+        android:background="@drawable/border"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:gravity="top"/>
+
+    <Button
+        android:id="@+id/btn_payment_send_id"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="send" />
+</RelativeLayout>

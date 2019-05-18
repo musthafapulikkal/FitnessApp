@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+
+    tools:context=".TrainerRegistration">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_name"
+        android:hint="name"
+        android:layout_marginTop="150dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_trainer_email"
+        android:hint="email"
+        android:layout_marginTop="200dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_age"
+        android:hint="age"
+        android:layout_marginTop="250dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:hint="password"
+        android:layout_marginTop="300dp"
+        android:inputType="textPassword"
+        />
+    <ImageView
+        android:id="@+id/profile_id"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/trainerdp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact_id"
+        android:hint="phone"
+        android:layout_marginTop="350dp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/profile_choose"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/profile_id"
+        android:layout_toEndOf="@+id/profile_id"
+        android:layout_toRightOf="@+id/profile_id"
+        android:text="choose"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_trainer_reg"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+
+        android:text="REGISTER" />
+
+</RelativeLayout>

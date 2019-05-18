@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".AddProducts">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/pname_id"
+       android:hint="product name"
+       android:layout_marginTop="20dp"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/price_id"
+        android:hint="price"
+        android:layout_marginTop="70dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity_id"
+        android:hint="quantity"
+        android:layout_marginTop="120dp"
+        android:inputType="number"
+        />
+    <ImageView
+        android:src="@drawable/backgallery"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="170dp"
+        android:id="@+id/imageview_id"/>
+
+ <Button
+     android:id="@+id/btn_choose"
+     style="@style/Widget.AppCompat.Button.Colored"
+     android:layout_width="80dp"
+     android:layout_height="40dp"
+     android:layout_marginLeft="80dp"
+     android:layout_marginTop="215dp"
+     android:hint="choose"
+     android:textColor="@color/white"/>
+
+ <Button
+     android:id="@+id/btn_add"
+     style="@style/Widget.AppCompat.Button.Colored"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="300dp"
+     android:hint="ADD" />
+
+</RelativeLayout>

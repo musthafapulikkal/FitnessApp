@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".AddTrainingCenters">
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Center name"
+        android:layout_marginTop="50dp"
+        android:id="@+id/centername_id"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Center place"
+        android:layout_marginTop="100dp"
+        android:id="@+id/centerplacd_id"/>
+    <ImageView
+        android:src="@drawable/backgallery"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/centerimage_id"
+        />
+
+    <Button
+        android:id="@+id/btn_center_choose"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="240dp"
+        android:text="choose"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/btn_center_add"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Add" />
+
+</RelativeLayout>

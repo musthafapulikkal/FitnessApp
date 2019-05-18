@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical"
+    android:background="?android:attr/selectableItemBackground">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageview_order"
+        />
+    <TextView
+        android:layout_marginLeft="70dp"
+        android:id="@+id/txt_order_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/txt_order_price"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_order_name"/>
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/txt_order_phone"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_order_price"
+        android:layout_marginLeft="70dp"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_order_phone"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/txt_order_address"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_order_address"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/txt_order_email"/>
+
+    <Button
+        android:id="@+id/btn_delivered"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_toEndOf="@+id/txt_order_price"
+        android:layout_toRightOf="@+id/txt_order_price"
+        android:text="delivered"
+        android:textSize="8dp" />
+</RelativeLayout>
